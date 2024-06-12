@@ -9,6 +9,7 @@ import "./Todo.scss";
 export const TodoContext = createContext(null);
 
 const Todo = () => {
+  //here are our states
   const [inputValue, setInputValue] = useState("");
   const [todos, setTodos] = useState([]);
 
